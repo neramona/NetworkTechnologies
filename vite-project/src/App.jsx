@@ -10,15 +10,15 @@ import Blog from './pages/Blog'
 function App() {
   return (
     <>
-      <Header />
-        <BrowserRouter>
+      <BrowserRouter>
+        <Header/>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/blog" element={<Blog/>}/>
           </Routes>
-        </BrowserRouter>
-      <Footer />
+        <Footer/>
+      </BrowserRouter>
     </>
   )
 }
