@@ -1,4 +1,5 @@
 import React, { PureComponent, ReactNode } from 'react'
+import { Button } from '../components/Button'
 
 interface Props {}
 interface State {}
@@ -14,7 +15,10 @@ class Home extends PureComponent<Props, State> {
 
     render(): ReactNode {
         return (
-            <div>HOME</div>
+            <div>
+                <div>HOME</div>
+                <Button color="secondary" size="large" title="OK"/>
+            </div>
         )
     }
 }

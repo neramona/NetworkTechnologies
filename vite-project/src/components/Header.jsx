@@ -50,7 +50,9 @@ class Header extends PureComponent {
                         <nav>
                             <div class="flex items-center  bg-[#D9D9D9] ml-[30px] mr-[30px] w-[1860px] h-[100px] rounded-[10px]">
                                 <div class="flex items-center justify-center rounded-[10px]  bg-white ml-[60px] w-[140px] h-[55px]">
-                                    LOGO
+                                    <Link to = "/">
+                                        LOGO
+                                    </Link>
                                 </div>
                                 <div class="flex items-center justify-center rounded-[10px] bg-white ml-[259px] w-[146px] h-[55px]">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 15 15"><path fill="#3D3D3D" fill-rule="evenodd" d="M1 3h13v1H1zm0 3h13v2H1zm13 4.25H1v2.5h13z" clip-rule="evenodd"/></svg>
@@ -58,7 +60,7 @@ class Header extends PureComponent {
                                 </div>
                                 <div class="flex items-center w-[544px] h-[55px] bg-white ml-[40px] mr-[] rounded-[10px]"> 
                                     <input class="placeholder:text-[#8D8D8D] placeholder:[oswald] ml-[10px] w-[480px]" placeholder="Поиск" type="text" name="search"></input>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><g fill="none" stroke="#8D8D8D" stroke-width="1.5"><circle cx="11.5" cy="11.5" r="9.5"/><path stroke-linecap="round" d="m20 20l2 2"/></g></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><g fill="none" stroke="#8D8D8D" stroke-width="1.5"><circle cx="11.5" cy="11.5" r="9.5"/><path stroke-linecap="round" d="m20 20l2 2"/></g></svg>
                                 </div>
                                 <div class="flex pl-[370px]">
                                     <svg class="mr-[25px]" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24"><path fill="#3D3D3D" d="M2 9.137C2 14 6.02 16.591 8.962 18.911C10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138S16.5.825 12 5.501C7.5.825 2 4.274 2 9.137"/></svg>

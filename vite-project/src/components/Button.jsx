@@ -23,8 +23,8 @@ export const Button = (props) =>{
     };
 
     return(
-        <div className={defaultClass + " " + classes.sizes[size] + " " + classes.colors[color].button}>
-            <div className={classes.colors[color].text}>
+        <div class={defaultClass + " " + classes.sizes[size] + " " + classes.colors[color].button}>
+            <div class={classes.colors[color].text}>
                 {title}
             </div>
         </div>
