@@ -70,7 +70,6 @@ class Header extends PureComponent {
                             </div>
                         </nav>
                     </div>
-                    
                 </header>
             </div>
                 
