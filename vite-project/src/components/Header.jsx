@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
+import { Input } from '../components/Input'
 
 class Header extends PureComponent {
     render() {

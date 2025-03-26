@@ -7,12 +7,12 @@ export const Button = (props) =>{
     const classes = {
         colors:{
             primary:{
-                button: "bg-amber-700",
-                text: "text-red",
+                button: "bg-[#000000]",
+                text: "text-white",
             },
             secondary:{
-                button: "bg-red-500",
-                text: "text-white",
+                button: "bg-[#FFFFFF]",
+                text: "text-dark",
             },
         },
         sizes: {
