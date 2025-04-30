@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Button = (props) =>{
-    const {size, color, title} = props;
+    const {size, color, title, onClick} = props;
     const defaultClass = "flex items-center rounded-2 h-[40px] w-[max-content] px-4 py-2";
 
     const classes = {
@@ -23,7 +23,7 @@ export const Button = (props) =>{
     };
 
     return(
-        <div class={defaultClass + " " + classes.sizes[size] + " " + classes.colors[color].button}>
+        <div onClick ={onClick} class={defaultClass + " " + classes.sizes[size] + " " + classes.colors[color].button}>
             <div class={classes.colors[color].text}>
                 {title}
             </div>

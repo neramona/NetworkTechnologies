@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Input = (props) => {
-    const { size, color, placeholder} = props;
+    const { size, color, placeholder, value, onChange} = props;
     const defaultClass = "flex items-center rounded-2 h-[40px] px-4 py-2 border focus:outline-none focus:ring-2";
 
     const classes = {
@@ -30,6 +30,8 @@ export const Input = (props) => {
         <input
             className={defaultClass + " " + classes.sizes[size] + " " + classes.colors[color].border + " " + classes.colors[color].text + " "}
             placeholder={placeholder}
+            value={value}
+            onChange={onChange}
         />
     );
 };
